@@ -1,0 +1,45 @@
+/* src/Schedule.css */
+.schedule {
+    width: 400px;
+    margin: 90px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ 
+  }
+  
+  .schedule h2 {
+    text-align: center;
+  }
+  
+  .schedule form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .schedule label {
+    margin-bottom: 10px;
+  }
+  
+  .schedule input,
+  .schedule textarea {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .schedule button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .schedule button:hover {
+    background-color: #218838;
+  }
+  

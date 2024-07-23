@@ -1,0 +1,51 @@
+.Nav-container {
+    background-color: #464557;
+    width: 100vw;
+    height: 70px;
+    border: solid 2px grey;
+    border-radius: 7px;
+    box-sizing: border-box;
+    box-shadow: none;
+    margin: 0;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 0 20px;
+    z-index: 1000; /* Ensure it stays above the content */
+}
+
+.Nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.border:hover {
+    border: 2px solid wheat;
+    border-radius: 3rem;
+}
+
+.Nav-left img {
+    padding-left: 0;
+    margin-left: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    height: 50px; /* Adjust the height to fit the navbar */
+    width: 80px; /* Maintain aspect ratio */
+}
+
+.Nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.Nav-right p {
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
